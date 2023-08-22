@@ -45,7 +45,7 @@ public class Pizza {
         isPapperBagAdded = false;
 
         totalPrice = basePrice;
-        bill = "Base Price of the Pizza: "+basePrice + "\n";
+        bill = "Base Price of The Pizza: "+basePrice + "\n";
 
     }
 
@@ -97,7 +97,7 @@ public class Pizza {
             }
             if(isPapperBagAdded == true)
             {
-                bill = bill + "Papperbag Added: "+papperBagPrice + "\n";
+                bill = bill + "Paperbag Added: "+papperBagPrice + "\n";
             }
             bill = bill + "Total Price: "+totalPrice + "\n";
             isBillGenerated =  true;
