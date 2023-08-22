@@ -37,7 +37,7 @@ public class Pizza {
 
         }
 
-        papperBagPrice = 120;
+        papperBagPrice = 20;
         cheesePrice = 80;
 
         isCheeseAdded = false;
